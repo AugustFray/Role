@@ -4,7 +4,7 @@
     list-style-type: none;
 }
 html{
-    background:url(images/na-chernom-fone-sotovyj-raznocvetnyj-risunok.jpg);
+    background:url(images/1645391885_16-phonoteka-org-p-chernii-matovii-tsvet-fon-19.jpg);
     min-height:100%;
     background-size:cover;
 }
@@ -17,15 +17,18 @@ html{
     justify-content: space-between;
 }
 .menu {
-    position: relative;
-    height: 100%;
+    height: 50%;
     width: 90%;
     background-color: aqua;
     margin-left: 20%;
 }
 .Logo {
-    position: relative;
     height: 100%;
-    width:20%;
-    background-color: blueviolet;
+    width:13%;
+    background-image: url(images/Безымянный.png);
+    border-radius: 150px;
+    min-height:1%;
+    background-size:cover;
+    border: 5px solid rgba(255, 255, 255, .5);
 }
+
