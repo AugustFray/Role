@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+html{
+    background:url(images/na-chernom-fone-sotovyj-raznocvetnyj-risunok.jpg);
+    min-height:100%;
+    background-size:cover;
+}
+.main_info{
+    position:absolute;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu {
+    position: relative;
+    height: 100%;
+    width: 90%;
+    background-color: aqua;
+    margin-left: 20%;
+}
+.Logo {
+    position: relative;
+    height: 100%;
+    width:20%;
+    background-color: blueviolet;
+}
