@@ -10,19 +10,23 @@
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    box-sizing: border-box;
 }
 html{
     background:url(images/1645391885_16-phonoteka-org-p-chernii-matovii-tsvet-fon-19.jpg);
     min-height:100%;
     background-size:cover;
 }
+.Block{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
 .main_info{
-    position: absolute;
-    height: 17%;
+    height: 6.7em;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    background-color:rgba(185, 141, 98, 0.3);;
+    background-color:rgba(185, 141, 98, 0.3);
     border-radius: 0px 0px 15% 15%;
     align-items: center;
     box-shadow: 0 0 5px 5px;
@@ -31,20 +35,25 @@ html{
     height: 50%;
     width: 70%;
     background-color: rgb(23, 25, 25);
-    margin-left: 30%;
+    margin-left: 15%;
     justify-content: center;
     position: relative;
     border-radius: 50px 0 0 50px;
 }
 .Logo {
-    height: 15%;
-    width:7.4%;
-    background-image: url(images/Безымянный.png);
-    border-radius: 1000px;
-    min-height:1%;
-    background-size:cover;
-    position: fixed;
-    margin-left: 7%;
+   height: 90%;
+   width: 11%;
+   margin-left: 8%;
+}
+.exmpl {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .exmpl img {
+    height: 100%;
+    width: 100%;
 }
 .line_in_menu {
     height: 3px;
@@ -81,14 +90,26 @@ nav {
     text-decoration: none;
 }
 .list_item_link:hover {
-
-
+    text-shadow: 0px 0px 10px rgb(110, 107, 99);
 }
 .list_item_link:active {
+    text-shadow: none;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #FAFAFA;
-    border-bottom: 3px solid #F1CDB3;
+    color: #8f8e8c;
+}
+.home_content {
+    margin-top: 1%;
+    margin-left: 20%;
+    height: 75%;
+    width: 60%;
+    border-radius: 20px;
+    position: absolute;
+    background-image: url(images/list3.jpg);
+    background-repeat: round space;
+}
+.home_content:hover {
+    box-shadow: 0px 0px 18px 10px rgb(154, 153, 151, 0.3);
 }
